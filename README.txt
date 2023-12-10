@@ -6,13 +6,16 @@ Project Title: Pipelined Dual Precision Floating Point Multiplier
 ###################################################################################################################################
 
 Project Structure:
-This project consist of below files
-1. TbMul.bsv : complete code (multiplier module along with test bench in the same file)
-2. mkMulPipe.v : verilog version(generated using BDW) of multiplier module
+This project consist of the following files arranged as follows:
+1. The 'src' folder contains the complete source code
+   (a) TbMul.bsv : complete code (multiplier module along with test bench in the same file)
+   (b) mkMulPipe.v : verilog version(generated using BDW) of multiplier module
+2. The 'results' folder contains the results of the implementation
+   (a) synth1.v : generated using yosys tool after synthesis
+   (b) netlist.v : netlist for multiplier module (mkMulPipe.v) generated using yosys
+   (c) chip_area.txt : chip area calculations output file generated using yosys
 3. Detailed_Documentation.pdf : eloberates literature survey, approach & hardware structure along with testing and results
-4. synth1.v : generated using yosys tool after synthesis
-5. netlist.v : netlist for multiplier module (mkMulPipe.v) generated using yosys
-6. chip_area.txt : chip area calculations output file generated using yosys
+
 
 ###################################################################################################################################
 
