@@ -1,0 +1,19 @@
+18. Printing statistics.
+
+=== mkMulPipe ===
+
+   Number of wires:              55110
+   Number of wire bits:          80066
+   Number of public wires:         255
+   Number of public wire bits:   12060
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:              44610
+     DFF                          1295
+     NAND                        20650
+     NOR                         15443
+     NOT                          7222
+
+   Chip area for module '\mkMulPipe': 189348.000000
+
