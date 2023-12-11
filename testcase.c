@@ -92,11 +92,11 @@ void main()
     printf("IEEE 754 representation: 0x%lX\n", ieee754Value);
 
    for (int i = 0; i < 15; ++i) {
-        double test_case = generate_random_double();
-        srand((unsigned int)time(NULL));
-        printf("Test Case %d:\n", i + 1);
-        printf("Value: %f\n", test_case);
-        printf("\n");
+       // double test_case = generate_random_double();
+       // srand((unsigned int)time(NULL));
+       // printf("Test Case %d:\n", i + 1);
+      //  printf("Value: %f\n", test_case);
+      //  printf("\n");
 
         uint64_t ieee754Value = decimalToIEEE754(decimalValue);
 
