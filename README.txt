@@ -1,7 +1,7 @@
 ###################################################################################################################################
 
 This project is developed by CS23M005(Patha Yedukondalu) and CS23S023(Samyuktha M)
-Project Title: Pipelined Dual Precision Floating Point Multiplier
+Project Title: Pipelined Double Precision Floating Point Multiplier
 
 ###################################################################################################################################
 
@@ -56,8 +56,8 @@ Verification Methodology:
 	-> Inputs that result in underflow after multiplication
 	-> Inputs that result in subnormal number as output
 3. Each test case is explicitily written as a seperate rule
-	-> Test case rules are generated using python
-	-> Outputs are verified against standard results using python
+	-> Test case rules are generated using C
+
 4. Understanding the results:
 	-> Output appears after 5 clock pulses
 	-> Result should be considered along with flags
